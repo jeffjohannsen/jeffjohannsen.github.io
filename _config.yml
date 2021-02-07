@@ -1,17 +1,13 @@
 # Site settings
 title: Jeff Johannsen Data Science Portfolio
 description: A place to check out my projects and get ahold of me.
-# baseurl: "/particle" # the subpath of your site, e.g. /blog
-# url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
 username: Jeff Johannsen
 user_description: I'm a Data Scientist with a background in Supply Chain Operations, Process Improvement, and Finance. My favorite part of Data Science is being able to communicate complex problems through data visualizations. Outside of Data Science, I'm a polymath with a wide range of interests. My current side projects include tourism industry data collection for a mobile app and AI Safety research. I'm constantly focusing on self-improvement. My current learning goals include mindfulness and new Python packages for data science!
 user_title: Data Scientist
 email: jeffjohannsen@gmail.com
-twitter_username: lorem_ipsum
 github_username:  jeffjohannsen
-gplus_username:  lorem_ipsum
 
 # Google-analytics
 google-analytics:
