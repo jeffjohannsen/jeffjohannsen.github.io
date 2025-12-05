@@ -6,3 +6,4 @@ vendor
 
 # Private career management files
 career/
+.github/copilot-instructions.md
