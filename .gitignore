@@ -10,4 +10,4 @@ career/
 .github/
 
 # Claude Code instructions (local only)
-INSTRUCTIONS.md
+.claude/
