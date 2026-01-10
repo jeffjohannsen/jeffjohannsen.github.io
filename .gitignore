@@ -8,3 +8,6 @@ vendor
 # Private career management files
 career/
 .github/
+
+# Claude Code instructions (local only)
+INSTRUCTIONS.md
