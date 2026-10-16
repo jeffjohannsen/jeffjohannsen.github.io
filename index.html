@@ -267,16 +267,19 @@
                         </ul>
                         <p class="mt-3 text-base text-gray-900 leading-7">
                             <!-- PROJECT DESCRIPTION -->
-                            Using AI to predict the outcomes of NBA games with a streamlined, model-focused approach.
+                            Predicting NBA game spreads and winners with deep learning models that learn directly from
+                            play-by-play, box scores and rosters, evaluated against Vegas lines.
                             <br>
-                            <span style="display: block; margin-left: 40px;">• <strong>Data Pipeline:</strong>
-                                Complete PBP → GameStates → Features → Predictions pipeline processing multiple seasons
-                                of NBA data in an optimized SQLite database.</span>
+                            <span style="display: block; margin-left: 40px;">• <strong>Automated Data Pipeline:</strong>
+                                Twice-daily collection of games, play-by-play, box scores, injury reports and betting
+                                lines from the NBA API and ESPN into SQLite, followed by fresh pre-game predictions.</span>
                             <span style="display: block; margin-left: 40px;">• <strong>Prediction Engines:</strong>
-                                Multiple models including Ridge Regression, XGBoost, and PyTorch MLP, with ensemble
-                                predictions and ongoing development of deep learning and GenAI engines.</span>
-                            <span style="display: block; margin-left: 40px;">• <strong>Web App:</strong> Flask-based
-                                platform for accessing game predictions and live scores with real-time updates.</span>
+                                A hierarchical network (Kalman-filter player abilities, GATv2 player synergy, team and
+                                matchup layers), a roster-aware temporal transformer, Ridge, XGBoost and a PyTorch MLP,
+                                combined in an ensemble.</span>
+                            <span style="display: block; margin-left: 40px;">• <strong>Web App &amp; Dashboard:</strong>
+                                Flask app showing predictions next to Vegas lines and results, with a dashboard tracking
+                                each model's record against the spread.</span>
                         </p>
 
 
@@ -287,41 +290,41 @@
                                     class="inline-flex items-center px-3 py-0.5 mt-2 rounded-full text-sm font-medium bg-gray-100 text-gray-800">
                                     NBA Stats and Analytics</span>
                                 <span
-                                    class="inline-flex items-center px-3 py-0.5 mt-2 rounded-full text-sm font-medium bg-gray-100 text-gray-800">Sports
-                                    Betting</span>
+                                    class="inline-flex items-center px-3 py-0.5 mt-2 rounded-full text-sm font-medium bg-gray-100 text-gray-800">
+                                    Sports Betting</span>
                                 <span
                                     class="inline-flex items-center px-3 py-0.5 mt-2 rounded-full text-sm font-medium bg-gray-100 text-gray-800">
                                     Python</span>
                                 <span
                                     class="inline-flex items-center px-3 py-0.5 mt-2 rounded-full text-sm font-medium bg-gray-100 text-gray-800">
-                                    SQLite</span>
-                                <span
-                                    class="inline-flex items-center px-3 py-0.5 mt-2 rounded-full text-sm font-medium bg-gray-100 text-gray-800">
-                                    AWS</span>
-                                <span
-                                    class="inline-flex items-center px-3 py-0.5 mt-2 rounded-full text-sm font-medium bg-gray-100 text-gray-800">
-                                    Web App</span>
+                                    PyTorch</span>
                                 <span
                                     class="inline-flex items-center px-3 py-0.5 mt-2 rounded-full text-sm font-medium bg-gray-100 text-gray-800">
                                     Deep Learning</span>
                                 <span
                                     class="inline-flex items-center px-3 py-0.5 mt-2 rounded-full text-sm font-medium bg-gray-100 text-gray-800">
-                                    PyTorch</span>
-                                <span
-                                    class="inline-flex items-center px-3 py-0.5 mt-2 rounded-full text-sm font-medium bg-gray-100 text-gray-800">
-                                    GenAI</span>
-                                <span
-                                    class="inline-flex items-center px-3 py-0.5 mt-2 rounded-full text-sm font-medium bg-gray-100 text-gray-800">
-                                    RAG</span>
-                                <span
-                                    class="inline-flex items-center px-3 py-0.5 mt-2 rounded-full text-sm font-medium bg-gray-100 text-gray-800">
-                                    LLM</span>
-                                <span
-                                    class="inline-flex items-center px-3 py-0.5 mt-2 rounded-full text-sm font-medium bg-gray-100 text-gray-800">
                                     Transformers</span>
                                 <span
                                     class="inline-flex items-center px-3 py-0.5 mt-2 rounded-full text-sm font-medium bg-gray-100 text-gray-800">
-                                    Pandas</span>
+                                    Graph Neural Networks</span>
+                                <span
+                                    class="inline-flex items-center px-3 py-0.5 mt-2 rounded-full text-sm font-medium bg-gray-100 text-gray-800">
+                                    Kalman Filter</span>
+                                <span
+                                    class="inline-flex items-center px-3 py-0.5 mt-2 rounded-full text-sm font-medium bg-gray-100 text-gray-800">
+                                    XGBoost</span>
+                                <span
+                                    class="inline-flex items-center px-3 py-0.5 mt-2 rounded-full text-sm font-medium bg-gray-100 text-gray-800">
+                                    Sklearn</span>
+                                <span
+                                    class="inline-flex items-center px-3 py-0.5 mt-2 rounded-full text-sm font-medium bg-gray-100 text-gray-800">
+                                    Optuna</span>
+                                <span
+                                    class="inline-flex items-center px-3 py-0.5 mt-2 rounded-full text-sm font-medium bg-gray-100 text-gray-800">
+                                    Ensemble Models</span>
+                                <span
+                                    class="inline-flex items-center px-3 py-0.5 mt-2 rounded-full text-sm font-medium bg-gray-100 text-gray-800">
+                                    SQLite</span>
                                 <span
                                     class="inline-flex items-center px-3 py-0.5 mt-2 rounded-full text-sm font-medium bg-gray-100 text-gray-800">
                                     ETL</span>
@@ -330,16 +333,16 @@
                                     API</span>
                                 <span
                                     class="inline-flex items-center px-3 py-0.5 mt-2 rounded-full text-sm font-medium bg-gray-100 text-gray-800">
-                                    Sklearn</span>
+                                    Pandas</span>
                                 <span
                                     class="inline-flex items-center px-3 py-0.5 mt-2 rounded-full text-sm font-medium bg-gray-100 text-gray-800">
-                                    XGBoost</span>
-                                <span
-                                    class="inline-flex items-center px-3 py-0.5 mt-2 rounded-full text-sm font-medium bg-gray-100 text-gray-800">
-                                    Seaborn</span>
+                                    Matplotlib</span>
                                 <span
                                     class="inline-flex items-center px-3 py-0.5 mt-2 rounded-full text-sm font-medium bg-gray-100 text-gray-800">
                                     Flask</span>
+                                <span
+                                    class="inline-flex items-center px-3 py-0.5 mt-2 rounded-full text-sm font-medium bg-gray-100 text-gray-800">
+                                    Web App</span>
                                 <span
                                     class="inline-flex items-center px-3 py-0.5 mt-2 rounded-full text-sm font-medium bg-gray-100 text-gray-800">
                                     HTML/CSS/JS</span>
